@@ -1,13 +1,15 @@
 
 <script lang="ts">
-  import zarir128 from "$lib/assets/zarir-128x128.jpg";
+  import zarir from "$lib/assets/zarir.jpg";
 </script>
 <svelte:head>
   <title>Contact Me</title>
 </svelte:head>
 
 <div class="flex justify-center items-center py-3">
-  <img class="rounded-full" src="{zarir128}" alt="ZARIR">
+  <div class="rounded-full w-32 h-32 relative pointer-events-none" style='background: url("{zarir}") center center / contain no-repeat;'>
+    <div class="absolute top-0 left-0 inset-0 z-10 w-full h-full pointer-events-none"></div>
+  </div>
 </div>
 
 <div class="flex justify-center pt-3">

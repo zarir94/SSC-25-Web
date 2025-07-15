@@ -38,9 +38,10 @@
   <h2 class="text-xl text-center py-5 font-bold">Ranking</h2>
   <Table striped={true} shadow={true}>
     <TableBody>
-      <TableBodyRow><TableBodyCell>Position in Both Schools</TableBodyCell><TableBodyCell>{data.rank_all}</TableBodyCell></TableBodyRow>
+      <TableBodyRow><TableBodyCell>Position in 3 Schools</TableBodyCell><TableBodyCell>{data.rank_all}</TableBodyCell></TableBodyRow>
       <TableBodyRow><TableBodyCell>Position in Laboratory</TableBodyCell><TableBodyCell>{data.rank_lab}</TableBodyCell></TableBodyRow>
       <TableBodyRow><TableBodyCell>Position in KDA</TableBodyCell><TableBodyCell>{data.rank_kda}</TableBodyCell></TableBodyRow>
+      <TableBodyRow><TableBodyCell>Position in KUET</TableBodyCell><TableBodyCell>{data.rank_kuet}</TableBodyCell></TableBodyRow>
     </TableBody>
   </Table>
 </div>

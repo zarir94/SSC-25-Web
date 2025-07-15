@@ -3,11 +3,11 @@
   import { CaretRightSolid } from "flowbite-svelte-icons";
 
   export let data;
-  data;
   let selectOptions = [
-    {name: 'School: All', value: 'all', selected: true},
+    {name: 'School: All', value: 'all'},
     {name: 'School: KDA', value: 'KDA'},
     {name: 'School: Laboratory', value: 'LAB'},
+    {name: 'School: KUET', value: 'KUET'},
   ]
   $: selectValue = data.school || 'all';
 </script>
